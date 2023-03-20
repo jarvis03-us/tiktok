@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  height: var(--default-height);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+}
+
+.headerContent {
+  height: inherit;
+  width: var(--default-width);
+  background-color: #000;
+}

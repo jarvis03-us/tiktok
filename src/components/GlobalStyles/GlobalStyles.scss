@@ -1,0 +1,28 @@
+@import "normalize.css";
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+@import url("https://db.onlinewebfonts.com/c/9e00143409affcb46a1ae58634aa64be?family=Sofia+Pro");
+
+:root {
+  --primary: #fe2c55;
+
+  --default-width: 1150px;
+  --default-height: 60px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "proxima-nova", sans-serif;
+  font-family: "Sofia Pro", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
